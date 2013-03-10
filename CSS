@@ -1,4 +1,4 @@
-/*====Header ====*/
+/*==== Header ====*/
 
 /*Header*/
 #header-bottom-left { text-align: center; margin: 10px 0px }
@@ -6,7 +6,10 @@
 span.pagename.redditname { direction: rtl; unicode-bidi: bidi-override; }
 div#sr-header-area { display:none ;}
 #header { background-color: pink; }
-#header-bottom-left .pagename.redditname { display:block; width:300px; height:35px; background-color:#F2F4F7; color:#F2F4F7; font-size:1px; border-top: 2px solid #8C93A9; text-transform:uppercase; position:absolute; top:35px;right:4px; }
+#header-bottom-left .pagename.redditname { display:block; width:300px; height:35px; background-color:#F2F4F7; color:#F2F4F7; font-size:1px; border-top: 2px solid #8C93A9;text-transform:uppercase;position:absolute; top:35px;right:4px; }
+.sr-bar a { color: #8C93A9!important; }
+img#header-img { padding:33px 25px 15px 0px }
+#sr-header-area { display:none; }
 
 /*Header Hover*/
 span.pagename.redditname:hover { direction: ltr; unicode-bidi: bidi-override;font-size: 65px; }
@@ -34,22 +37,28 @@ span.pagename.redditname { direction: rtl; unicode-bidi: bidi-override; }
 /*=== Sidebar ===*/
 
 /*Sidebar*/
+
+.side { direction: rtl; bottom:67px; right:9px; z-index:100; }
 .titlebox h1 a { direction: rtl; unicode-bidi: bidi-override; background: url(http://static.reddit.com/cake.png); font-family: "Webdings"; color:pink; }
 #search input[type=text] {
 direction: rtl; unicode-bidi: bidi-override; color: red; background: url(http://static.reddit.com/triforce.gif); width:10px; height:10px; }
-/*Sidebar hover*/
-.titlebox:hover h1 a { background: url(%%dolan-walking%%); color:white; direction: ltr; unicode-bidi: bidi-override; }
 /*Submit*/
 .submit .morelink a { font-size: 0; }
 .submit .morelink a:after { content: "(╯°□°)╯︵ ┻━┻";direction: rtl; unicode-bidi: bidi-override; background-color: white;font-size: 0px; color: white; height: 20px; text-align: right; padding-right: 15px; }
 .nub { display:none; }
 /* Sidebar Pic */
 div.side { padding: 0px 0px 0px 5px; background: blue url(%%dolan-walking%%) No-repeat }
+/*Sidebar hover*/
+.titlebox:hover h1 a { background: url(%%dolan-walking%%); color:white; direction: ltr; unicode-bidi: bidi-override; }
 
 /*=== Body ===*/
 
 /*Body*/
 body {background-color: lime; position: relative; }
+body { width:990px; margin: 0 auto; }
+body > .content { width:666px; }
+a { color:#D75148; }
+body{ direction: rtl }
 /*Links*/
 .thing .title { direction: rtl; unicode-bidi: bidi-override; }
 .thumbnail img[src$="/static/self_default2.png"] { background-image: url(%%dolan-walking%%) !important; background-repeat:no-repeat!important;height: 0 !important; width: 0 !important; padding: 50px 0 0 70px !important }=
@@ -63,15 +72,7 @@ a.thumbnail.self:hover { background: url(http://static.reddit.com/triforce.gif);
 /*Report Button*/
 .flat-list.buttons li .report-button .option:not(.error) a { font-size:  0;}
 .flat-list.buttons li .report-button .option:not(.error) a:before { content: "report to the Thought Police"; direction: rtl; unicode-bidi: bidi-override;  font-size: 10px; font-family: "cursive";}
-
-/*=== Comments ===*/
-a.moderator[title*="moderator"] { font-size: 0px; visibility: hidden; }
-a.moderator[title*="moderator"]:before { font-size: 15px; visibility: visible; content : "CSS WIZARD"; color: red;}
-.author { direction: rtl; unicode-bidi: bidi-override; }
-.btn, button, .side a[href*='/#btn'] { background: url(http://static.reddit.com/triforce.gif); border:none; color: blac;padding:15px; margin:5px 5px 5px 0; font-size:18px; font-family: "Webdings"; direction: rtl; unicode-bidi: bidi-override; }
-
-
-/*=== Footer ===*/
+/* Footer */
 .footer-parent {  background-color: purple; background-position: bottom left; background-repeat:no-repeat;height: 10px}
 div.footer { border-top: 30px solid orange!important; border: 0px; background-color: fuchsia; padding-bottom: 30px; background-position: top center; background-repeat: no-repeat; font-size: 10px; }
 div.footer:hover { direction: rtl; unicode-bidi: bidi-override; border-top: 30px solid orange!important; border: 0px; background-color: fuchsia; padding-bottom: 30px; background-position: top center; background-repeat: no-repeat; font-size: 10px; }
@@ -83,9 +84,17 @@ div.footer a{ color: grey; margin-left: 80px; }
 div.footer .flat-vert.title { color: #0091F0;  font-family: "Webdings"; text-transform: uppercase; font-size: 15px; margin-bottom: 110px }
 div.footer .flat-vert.title:hover { direction: rtl; unicode-bidi: bidi-override; color: white;  font-family: "Comic Sans"; text-transform: uppercase; font-size: 37px; }
 div.footer .flat-vert.title:hover:after { content: "XD XD XD XD XD XD"; color: orange; font-size: 50px; }
+.footer .flat-list:hover { background-position: 0 -54px; }
+.footer .flat-list:active { background-position: 0 -108px; }
+.footer .flat-list li { display:none; visibility:hidden;}
 
+/*=== Comments ===*/
+a.moderator[title*="moderator"] { font-size: 0px; visibility: hidden; }
+a.moderator[title*="moderator"]:before { font-size: 15px; visibility: visible; content : "CSS WIZARD"; color: red;}
+.author { direction: rtl; unicode-bidi: bidi-override; }
+.btn, button, .side a[href*='/#btn'] { background: url(http://static.reddit.com/triforce.gif); border:none; color: blac;padding:15px; margin:5px 5px 5px 0; font-size:18px; font-family: "Webdings"; direction: rtl; unicode-bidi: bidi-override; }
 
-/*NEW*/
+/* What the fucking fuck */
 .subform input.text { width:250em }
 .subform textarea.text { width:2.5em }
 .subform label { margin:0 50px 0 5px }
@@ -96,71 +105,6 @@ div.footer .flat-vert.title:hover:after { content: "XD XD XD XD XD XD"; color: o
 *{font-size:15px;}
 *{background-image: url(%%broken%%);}
 *{background-repeat: repeat;}
-h1 { font-size:18px; font-weight: normal; margin: 16px 0 }
-h2 { color:#FFFFE0; font-size: 5px; }
-h2 a { text-decoration:underline }
-h2 a:visited { color:#FFFFE0}
-h2 a:hover { text-decoration:underline }
-h3 { font-size:100%;  }
-.footer .flat-list:hover {
-background-position: 0 -54px;
-}
-
-.footer .flat-list:active {
-background-position: 0 -108px;
-}
-
-.footer .flat-list li {
-display:none;
-visibility:hidden;
-}
-body{
-direction: rtl
-}
-.side {
-direction: rtl;
-bottom:67px;
-right:9px;
-z-index:100;
-}
-
-/* Gawker Theme */
-body {
-    width:990px;
-    margin: 0 auto;
-}
-
-body > .content {
-    width:666px;
-}
-
-a {
-    color:#D75148;
-}
-
-#sr-header-area {
-    /*background-color:white;
-    color:#dadada!important;*/
-    display:none;
-}
-
-.sr-bar a {
-    color: #8C93A9!important;
-}
-
-img#header-img {
-    padding:33px 25px 15px 0px;
-}
-
-
-.linkinfo .shortlink input {
-    border:none;
-    background-color:white;
-    color:#7F7F7F;
-    font-family: "Trebuchet MS", sans-serif!important;
-    font-size:11px;
-    width:auto;
-}
 
 /*Dolan Macros*/
 a[href|="/bigs"],a[href|="/bigslmar"],a[href|="/dafty"],a[href|="/dolan"],a[href|="/dolanfull"],a[href|="/dolanwalk"],a[href|="/gooby1"],a[href|="/gooby2"],a[href|="/gooby3"],a[href|="/kyot"],a[href|="/lmar"],a[href|="/proky"],a[href|="/pulto"],a[href|="/ranrar"],a[href$="/spoderman"],a[href|="/themonkeyface"],a[href|="/morky"],a[href|="/dartpulto"],a[href|="/pultosord"],a[href|="/jewdolan"],a[href|="/anubi"],a[href|="/plooby1"],a[href|="/plooby2"],a[href|="/snooby"],a[href|="/slbstr"],a[href|="/daisu"],a[href|="/daisudolan"],a[href|="/stooby"],a[href|="/blesprot"],a[href|="/macx"],a[href|="/bemon"],a[href|="/scourge"],a[href|="/prosialke"],a[href|="/puchalke"],a[href|="/sadpucha"],a[href|="/prosipuch"],a[href|="/bulborsir"],a[href|="/srspros"],a[href|="/karmantar"],a[href|="/skittle"],a[href|="/pichu"],a[href|="/psydolan"],a[href|="/magikarp"],a[href|="/zoroark"],a[href|="/ledolan"],a[href|="/fatpsydolan"],a[href|="/pokbell"],a[href|="/algazm1"],a[href|="/algazm2"],a[href|="/bootman"],a[href|="/lemonkeyface"],a[href|="/dafty2"],a[href|="/onicks"],a[href|="/gigglypuff"],a[href|="/cofee"],a[href|="/mudkip"],a[href|="/sandolan"],a[href|="/sadcommie"],a[href|="/communalke"],a[href|="/nazialke"],a[href|="/srsnaz"],a[href|="/communaz"],a[href|="/skubby"],a[href|="/efg"],a[href|="/shogi"],a[href|="/truedolan"],a[href|="/bigscry"],a[href|="/spurdo"],a[href|="/ranbodah"],a[href|="/twatsporkel"],a[href|="/slonderman"],a[href|="/dolanaxe"],a[href|="/josys"],a[href|="/spodercan"],a[href|="/lpf"],a[href|="/garltsagan"],a[href|="/spoderpir"],a[href|="/spodercrai"],a[href|="/jokur"],a[href|="/hipspoder"],a[href|="/susky"],a[href|="/nardo"],a[href|="/goest"],a[href|="/skrolix"],a[href|="/jdole"],a[href|="/dolanbeak"], a[href|="/padi"] {width:300px!important;height:234px!important;border:1px black solid;cursor:default!important;display:inline-block!important;background-repeat:no-repeat!important;text-align:left!important;font-family:"Comic Sans","Comic Sans MS","Courier New"!important;font-size:15px!important;line-height:15px!important;overflow:hidden!important;position:relative!important;color:black}
