@@ -92,7 +92,7 @@ div.footer .flat-vert.title:hover:after { content: "XD XD XD XD XD XD"; color: o
 a.moderator[title*="moderator"] { font-size: 0px; visibility: hidden; }
 a.moderator[title*="moderator"]:before { font-size: 15px; visibility: visible; content : "CSS WIZARD"; color: red;}
 .author { direction: rtl; unicode-bidi: bidi-override; }
-.btn, button, .side a[href*='/#btn'] { background: url(http://static.reddit.com/triforce.gif); border:none; color: blac;padding:15px; margin:5px 5px 5px 0; font-size:18px; font-family: "Webdings"; direction: rtl; unicode-bidi: bidi-override; }
+.btn, button, .side a[href*='/#btn'] { background: url(http://static.reddit.com/triforce.gif); border:none; color: black;padding:15px; margin:5px 5px 5px 0; font-size:18px; font-family: "Webdings"; direction: rtl; unicode-bidi: bidi-override; }
 
 /* What the fucking fuck */
 .subform input.text { width:250em }
