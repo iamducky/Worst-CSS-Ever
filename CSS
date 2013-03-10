@@ -1,0 +1,298 @@
+/*====Header ====*/
+
+/*Header*/
+#header-bottom-left { text-align: center; margin: 10px 0px }
+#header-bottom-right { direction: rtl; unicode-bidi: bidi-override; color: salmon; }
+span.pagename.redditname { direction: rtl; unicode-bidi: bidi-override; }
+div#sr-header-area { display:none ;}
+#header { background-color: pink; }
+#header-bottom-left .pagename.redditname { display:block; width:300px; height:35px; background-color:#F2F4F7; color:#F2F4F7; font-size:1px; border-top: 2px solid #8C93A9; text-transform:uppercase; position:absolute; top:35px;right:4px; }
+
+/*Header Hover*/
+span.pagename.redditname:hover { direction: ltr; unicode-bidi: bidi-override;font-size: 65px; }
+#header-bottom-left:hover:before { position: relative !important; font-size: 2em!important; display: inline !important;
+content: "Accually is not helpful  --->"; font-family:'Old English Text MT', "Impact"; color: green; padding: 14px; }
+span.pagename.redditname { direction: rtl; unicode-bidi: bidi-override; }
+#header-bottom-right:hover { direction: rtl; unicode-bidi: bidi-override; font-family: "Webdings"; background:white; }
+
+/*Tabs*/
+#header-bottom-left .tabmenu li a { direction: rtl; unicode-bidi: bidi-override; font-family: "Webdings";}
+#header-bottom-left .tabmenu li {  height: 28px;  border: 0px; margin: 0px 5px; display: inline-block; }
+#header-bottom-left .tabmenu li a {width:70px;color:#98C4F0;background:none;padding: 5px 2px!important;} 
+#header-bottom-left .tabmenu li a:hover {color:#002B4D;} 
+#header-bottom-left .tabmenu li.selected a {color:#002B4D;border:none!important;} 
+#header-bottom-left .tabmenu li.selected a:before {content:"XD"} 
+#header-bottom-left .tabmenu ul { width: 425px !important; height: 36px !important; z-index: -1 }
+#header-bottom-left  .tabmenu li { list-style-type: none; display: inline-block !important; margin: 0px; padding: 0px }
+#header-bottom-left  .tabmenu li a { color: #5F4444 !important; font: normal 14px/34px "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;  }
+.content {padding:5px!important;background-color:white;border-radius:5px;margin-left:75px!important;margin-right:315px;}
+.tabmenu li.selected a {  background: #E6E6E6; background-position: -103px -144px; line-height: 34px; border: 1px #CCCCCC solid !important; }
+/*Tab Hover*/
+#header-bottom-left .tabmenu li a:hover { direction: ltr; unicode-bidi: bidi-override; font-family: "Cursive";}
+#header-bottom-left .tabmenu li:hover {  height: 88px;  border: 0px; margin: 40px 5px; background-color: orange}
+
+/*=== Sidebar ===*/
+
+/*Sidebar*/
+.titlebox h1 a { direction: rtl; unicode-bidi: bidi-override; background: url(http://static.reddit.com/cake.png); font-family: "Webdings"; color:pink; }
+#search input[type=text] {
+direction: rtl; unicode-bidi: bidi-override; color: red; background: url(http://static.reddit.com/triforce.gif); width:10px; height:10px; }
+/*Sidebar hover*/
+.titlebox:hover h1 a { background: url(%%dolan-walking%%); color:white; direction: ltr; unicode-bidi: bidi-override; }
+/*Submit*/
+.submit .morelink a { font-size: 0; }
+.submit .morelink a:after { content: "(╯°□°)╯︵ ┻━┻";direction: rtl; unicode-bidi: bidi-override; background-color: white;font-size: 0px; color: white; height: 20px; text-align: right; padding-right: 15px; }
+.nub { display:none; }
+/* Sidebar Pic */
+div.side { padding: 0px 0px 0px 5px; background: blue url(%%dolan-walking%%) No-repeat }
+
+/*=== Body ===*/
+
+/*Body*/
+body {background-color: lime; position: relative; }
+/*Links*/
+.thing .title { direction: rtl; unicode-bidi: bidi-override; }
+.thumbnail img[src$="/static/self_default2.png"] { background-image: url(%%dolan-walking%%) !important; background-repeat:no-repeat!important;height: 0 !important; width: 0 !important; padding: 50px 0 0 70px !important }=
+li.nsfw-stamp.stamp { direction: rtl; unicode-bidi: bidi-override; }
+.author { direction: rtl; unicode-bidi: bidi-override; }
+/*Links Hover*/
+li.nsfw-stamp.stamp:hover { direction: rtl; unicode-bidi: bidi-override; }
+a.thumbnail.self:hover { background: url(http://static.reddit.com/triforce.gif); }
+.author:hover { direction: ltr; unicode-bidi: bidi-override;font-family: "Webdings"; }
+.thing:hover .title:hover { direction: ltr; unicode-bidi: bidi-override; }
+/*Report Button*/
+.flat-list.buttons li .report-button .option:not(.error) a { font-size:  0;}
+.flat-list.buttons li .report-button .option:not(.error) a:before { content: "report to the Thought Police"; direction: rtl; unicode-bidi: bidi-override;  font-size: 10px; font-family: "cursive";}
+
+/*=== Comments ===*/
+a.moderator[title*="moderator"] { font-size: 0px; visibility: hidden; }
+a.moderator[title*="moderator"]:before { font-size: 15px; visibility: visible; content : "CSS WIZARD"; color: red;}
+.author { direction: rtl; unicode-bidi: bidi-override; }
+.btn, button, .side a[href*='/#btn'] { background: url(http://static.reddit.com/triforce.gif); border:none; color: blac;padding:15px; margin:5px 5px 5px 0; font-size:18px; font-family: "Webdings"; direction: rtl; unicode-bidi: bidi-override; }
+
+
+/*=== Footer ===*/
+.footer-parent {  background-color: purple; background-position: bottom left; background-repeat:no-repeat;height: 10px}
+div.footer { border-top: 30px solid orange!important; border: 0px; background-color: fuchsia; padding-bottom: 30px; background-position: top center; background-repeat: no-repeat; font-size: 10px; }
+div.footer:hover { direction: rtl; unicode-bidi: bidi-override; border-top: 30px solid orange!important; border: 0px; background-color: fuchsia; padding-bottom: 30px; background-position: top center; background-repeat: no-repeat; font-size: 10px; }
+div.footer li { padding-bottom: 14px }
+div.footer a:hover { direction: rtl; unicode-bidi: bidi-override; border-top: 30px solid orange!important;
+background-color: fuchsia; padding-bottom: 30px; background-repeat: no-repeat; font-size: 10px; } 
+div.footer a{ color: grey; margin-left: 80px; }
+.footer .col:hover { direction: rtl; unicode-bidi: bidi-override;color: white;  font-family: "Comic Sans"; text-transform:uppercase; font-size: 37px; }
+div.footer .flat-vert.title { color: #0091F0;  font-family: "Webdings"; text-transform: uppercase; font-size: 15px; margin-bottom: 110px }
+div.footer .flat-vert.title:hover { direction: rtl; unicode-bidi: bidi-override; color: white;  font-family: "Comic Sans"; text-transform: uppercase; font-size: 37px; }
+div.footer .flat-vert.title:hover:after { content: "XD XD XD XD XD XD"; color: orange; font-size: 50px; }
+
+
+/*NEW*/
+.subform input.text { width:250em }
+.subform textarea.text { width:2.5em }
+.subform label { margin:0 50px 0 5px }
+.subform td { padding:0px 5px 15px 0}
+.subform td.nopadding { padding:3px}
+*{color:#ff0000!important}
+*{background-color:#FFaaFF}
+*{font-size:15px;}
+*{background-image: url(%%broken%%);}
+*{background-repeat: repeat;}
+h1 { font-size:18px; font-weight: normal; margin: 16px 0 }
+h2 { color:#FFFFE0; font-size: 5px; }
+h2 a { text-decoration:underline }
+h2 a:visited { color:#FFFFE0}
+h2 a:hover { text-decoration:underline }
+h3 { font-size:100%;  }
+.footer .flat-list:hover {
+background-position: 0 -54px;
+}
+
+.footer .flat-list:active {
+background-position: 0 -108px;
+}
+
+.footer .flat-list li {
+display:none;
+visibility:hidden;
+}
+body{
+direction: rtl
+}
+.side {
+direction: rtl;
+bottom:67px;
+right:9px;
+z-index:100;
+}
+
+/* Gawker Theme */
+body {
+    width:990px;
+    margin: 0 auto;
+}
+
+body > .content {
+    width:666px;
+}
+
+a {
+    color:#D75148;
+}
+
+#sr-header-area {
+    /*background-color:white;
+    color:#dadada!important;*/
+    display:none;
+}
+
+.sr-bar a {
+    color: #8C93A9!important;
+}
+
+img#header-img {
+    padding:33px 25px 15px 0px;
+}
+
+
+.linkinfo .shortlink input {
+    border:none;
+    background-color:white;
+    color:#7F7F7F;
+    font-family: "Trebuchet MS", sans-serif!important;
+    font-size:11px;
+    width:auto;
+}
+
+/*Dolan Macros*/
+a[href|="/bigs"],a[href|="/bigslmar"],a[href|="/dafty"],a[href|="/dolan"],a[href|="/dolanfull"],a[href|="/dolanwalk"],a[href|="/gooby1"],a[href|="/gooby2"],a[href|="/gooby3"],a[href|="/kyot"],a[href|="/lmar"],a[href|="/proky"],a[href|="/pulto"],a[href|="/ranrar"],a[href$="/spoderman"],a[href|="/themonkeyface"],a[href|="/morky"],a[href|="/dartpulto"],a[href|="/pultosord"],a[href|="/jewdolan"],a[href|="/anubi"],a[href|="/plooby1"],a[href|="/plooby2"],a[href|="/snooby"],a[href|="/slbstr"],a[href|="/daisu"],a[href|="/daisudolan"],a[href|="/stooby"],a[href|="/blesprot"],a[href|="/macx"],a[href|="/bemon"],a[href|="/scourge"],a[href|="/prosialke"],a[href|="/puchalke"],a[href|="/sadpucha"],a[href|="/prosipuch"],a[href|="/bulborsir"],a[href|="/srspros"],a[href|="/karmantar"],a[href|="/skittle"],a[href|="/pichu"],a[href|="/psydolan"],a[href|="/magikarp"],a[href|="/zoroark"],a[href|="/ledolan"],a[href|="/fatpsydolan"],a[href|="/pokbell"],a[href|="/algazm1"],a[href|="/algazm2"],a[href|="/bootman"],a[href|="/lemonkeyface"],a[href|="/dafty2"],a[href|="/onicks"],a[href|="/gigglypuff"],a[href|="/cofee"],a[href|="/mudkip"],a[href|="/sandolan"],a[href|="/sadcommie"],a[href|="/communalke"],a[href|="/nazialke"],a[href|="/srsnaz"],a[href|="/communaz"],a[href|="/skubby"],a[href|="/efg"],a[href|="/shogi"],a[href|="/truedolan"],a[href|="/bigscry"],a[href|="/spurdo"],a[href|="/ranbodah"],a[href|="/twatsporkel"],a[href|="/slonderman"],a[href|="/dolanaxe"],a[href|="/josys"],a[href|="/spodercan"],a[href|="/lpf"],a[href|="/garltsagan"],a[href|="/spoderpir"],a[href|="/spodercrai"],a[href|="/jokur"],a[href|="/hipspoder"],a[href|="/susky"],a[href|="/nardo"],a[href|="/goest"],a[href|="/skrolix"],a[href|="/jdole"],a[href|="/dolanbeak"], a[href|="/padi"] {width:300px!important;height:234px!important;border:1px black solid;cursor:default!important;display:inline-block!important;background-repeat:no-repeat!important;text-align:left!important;font-family:"Comic Sans","Comic Sans MS","Courier New"!important;font-size:15px!important;line-height:15px!important;overflow:hidden!important;position:relative!important;color:black}
+/*set background images*/
+a[href|="/bigs"],a[href|="/bigslmar"],a[href|="/dafty"],a[href|="/dolan"],a[href|="/dolanfull"],a[href|="/dolanwalk"],a[href|="/gooby1"],a[href|="/gooby2"],a[href|="/gooby3"],a[href|="/kyot"],a[href|="/lmar"],a[href|="/proky"],a[href|="/pulto"],a[href|="/ranrar"],a[href|="/morky"],a[href|="/dartpulto"],a[href|="/spoderman"],a[href|="/pultosord"],a[href|="/jewdolan"],a[href|="/prosipuch"],a[href|="/magikarp"],a[href|="/ledolan"],a[href|="/zoroark"],a[href|="/bootman"],a[href|="/efg"],a[href|="/dafty2"],a[href|="/daisudolan"]:hover {background-image:url(%%dolansprites%%)!important}
+a[href|="/anubi"],a[href|="/plooby1"],a[href|="/plooby2"],a[href|="/slbstr"],a[href|="/daisu"],a[href|="/snooby"],a[href|="/stooby"],a[href|="/blesprot"],a[href|="/macx"],a[href|="/bemon"],a[href|="/scourge"],a[href|="/prosialke"],a[href|="/puchalke"],a[href|="/sadpucha"],a[href|="/bulborsir"],a[href|="/srspros"],a[href|="/karmantar"],a[href|="/skittle"],a[href|="/pichu"],a[href|="/psydolan"],a[href|="/fatpsydolan"],a[href|="/pokbell"],a[href|="/algazm1"],a[href|="/algazm2"],a[href|="/lemonkeyface"],a[href|="/hipspoder"],a[href|="/padi"] {background-image:url(%%dolansprites2%%)!important}
+a[href|="/sandolan"],a[href|="/sadcommie"],a[href|="/communalke"],a[href|="/nazialke"],a[href|="/srsnaz"],a[href|="/communaz"],a[href|="/skubby"],a[href|="/shogi"],a[href|="/truedolan"],a[href|="/bigscry"],a[href|="/spurdo"],a[href|="/ranbodah"],a[href|="/twatsporkel"],a[href|="/slonderman"],a[href|="/dolanaxe"],a[href|="/josys"],a[href|="/spodercan"],a[href|="/lpf"],a[href|="/garltsagan"],a[href|="/spoderpir"],a[href|="/spodercrai"],a[href|="/jokur"],a[href|="/susky"],a[href|="/nardo"],a[href|="/goest"],a[href|="/skrolix"],a[href|="/jdole"],a[href|="/dolanbeak"] {background-image:url(%%dolansprites3%%)!important}
+a[href|="/bigs"],a[href|="/anubi"],a[href|="/bigscry"]{background-position:0 0}
+a[href|="/bigslmar"],a[href|="/plooby1"],a[href|="/goest"]{background-position:0 -235px}
+a[href|="/dafty"],a[href|="/plooby2"],a[href|="/jdole"]{background-position:0 -470px}
+a[href|="/daisudolan"]:hover,a[href|="/dolan"],a[href|="/slbstr"],a[href|="/sandolan"]{background-position:0 -705px}
+a[href|="/dolanfull"],a[href|="/macx"],a[href|="/onicks"],a[href|="/truedolan"]{background-position:0 -940px}
+a[href|="/dolanwalk"],a[href|="/scourge"],a[href|="/dolanbeak"] {background-position:0 -1175px}
+a[href|="/gooby1"],a[href|="/puchalke"],a[href|="/communalke"] {background-position:0 -1410px}
+a[href|="/gooby2"],a[href|="/srspros"],a[href|="/srsnaz"] {background-position:0 -1645px}
+a[href|="/gooby3"],a[href|="/karmantar"],a[href|="/skubby"]{background-position:0 -1880px}
+a[href|="/jewdolan"],a[href|="/pichu"],a[href|="/josys"]{background-position:0 -2115px}
+a[href|="/magikarp"],a[href|="/pokbell"],a[href|="/spodercan"]{background-position:0 -2350px}
+a[href|="/zoroark"],a[href|="/algazm1"],a[href|="/garltsagan"]{background-position:0 -2585px}
+a[href|="/lemonkeyface"],a[href|="/dafty2"],a[href|="/spodercrai"]{background-position:0 -2820px}
+a[href|="/susky"],a[href|="/padi"]{background-position:0 -3065px}
+a[href|="/kyot"],a[href|="/daisu"],a[href|="/daisudolan"],a[href|="/ranbodah"]{background-position:-301px 0}
+a[href|="/lmar"],a[href|="/snooby"],a[href|="/skrolix"]{background-position:-301px -235px}
+a[href|="/proky"],a[href|="/stooby"],a[href|="/spurdo"]{background-position:-301px -470px}
+a[href|="/pulto"],a[href|="/blesprot"],a[href|="/shogi"]{background-position:-301px -705px}
+a[href|="/ranrar"],a[href|="/bemon"],a[href|="/slonderman"]{background-position:-301px -940px}
+a[href|="/morky"],a[href|="/sadpucha"],a[href|="/sadcommie"]{background-position:-301px -1175px}
+a[href$="/spoderman"],a[href|="/prosialke"],a[href|="/nazialke"]{background-position:-301px -1410px}
+a[href|="/dartpulto"],a[href|="/bulborsir"],a[href|="/twatsporkel"]{background-position:-301px -1645px}
+a[href|="/pultosord"],a[href|="/skittle"],a[href|="/dolanaxe"]{background-position:-301px -1880px}
+a[href|="/prosipuch"],a[href|="/fatpsydolan"],a[href|="/communaz"]{background-position:-301px -2115px}
+a[href|="/ledolan"],a[href|="/psydolan"],a[href|="/lpf"]{background-position:-301px -2350px}
+a[href|="/bootman"],a[href|="/algazm2"],a[href|="/spoderpir"]{background-position:-301px -2585px}
+a[href|="/efg"],a[href|="/hipsoder"],a[href|="/jokur"]{background-position:-301px -2820px}
+a[href|="/nardo"]{background-position:-301px -3065px}
+/*top and right text*/
+a[href|="/bigs"] em,a[href|="/bigslmar"] em,a[href|="/kyot"] em,a[href|="/prosipuch"] em,a[href|="/pokbell"] em,a[href|="/bigscry"] em,a[href|="/efg"] em,a[href|="/lpf"] em,a[href|="/garltsagan"] em{font-style:normal!important;position:absolute!important;color:black!important;top:10px!important;left:150px!important;height:50px!important;width:150px!important}
+a[href|="/bigslmar"] strong,a[href|="/prosipuch"] strong,a[href|="/communaz"] strong{font-style:normal!important;font-weight:normal!important;position:absolute!important;color:black!important;top:40px!important;left:25px!important;height:80px!important;width:110px!important}
+/*regular text*/
+a[href|="/dafty"] em,a[href|="/dolan"] em,a[href|="/dolanfull"] em,a[href|="/dolanwalk"] em,a[href|="/gooby1"] em,a[href|="/gooby2"] em,a[href|="/gooby3"] em,a[href|="/lmar"] em,a[href|="/proky"] em,a[href|="/pulto"] em,a[href|="/ranrar"] em,a[href|="/morky"] em,a[href|="/dartpulto"] em,a[href|="/spoderman"] em,a[href|="/pultosord"] em,a[href|="/jewdolan"] em,a[href|="/stooby"] em,a[href|="/plooby1"] em,a[href|="/plooby2"] em,a[href|="/anubi"] em,a[href|="/daisu"] em,a[href|="/daisudolan"] em,a[href|="/blesprot"] em,a[href|="/bemon"] em,a[href|="/macx"] em,a[href|="/snooby"] em,a[href|="/slbstr"] em,a[href|="/scourge"] em,a[href|="/prosialke"] em,a[href|="/puchalke"] em,a[href|="/sadpucha"] em,a[href|="/bulborsir"] em,a[href|="/srspros"] em,a[href|="/karmantar"] em,a[href|="/skittle"] em,a[href|="/pichu"] em,a[href|="/psydolan"] em,a[href|="/magikarp"] em,a[href|="/ledolan"] em,a[href|="/zoroark"] em,a[href|="/fatpsydolan"] em,a[href|="/algazm1"] em,a[href|="/algazm2"] em,a[href|="/bootman"] em,a[href|="/dafty2"] em,a[href|="/sandolan"] em,a[href|="/sadcommie"] em,a[href|="/communalke"] em,a[href|="/nazialke"] em,a[href|="/srsnaz"] em,a[href|="/communaz"] em,a[href|="/skubby"] em,a[href|="/shogi"] em,a[href|="/truedolan"] em,a[href|="/lemonkeyface"] em,a[href|="/spurdo"] em,a[href|="/ranbodah"] em,a[href|="/twatsporkel"] em,a[href|="/slonderman"] em,a[href|="/dolanaxe"] em,a[href|="/spodercan"] em,a[href|="/spoderpir"] em,a[href|="/spodercrai"] em,a[href|="/jokur"] em,a[href|="/susky"] em,a[href|="/nardo"] em,a[href|="/goest"] em,a[href|="/skrolix"] em,a[href|="/jdole"] em,a[href|="/dolanbeak"] em,a[href|="/padi"] em{font-style:normal!important;position:absolute!important;color:black!important;top:10px!important;left:20px!important;height:100px!important;width:280px!important}
+/*black and blank box codes*/
+a[href|="/blank"],a[href|="/black"]{text-align:left!important;position:relative!important;font-family:Courier,"Courier New",monospace!important;font-size:35px!important;line-height:35px!important}
+a[href|="/black"]{background-color:black!important}
+a[href|="/blank"]{background-color:white!important}
+a[href|="/black"] em{color:white!important}
+a[href|="/blank"] em{color:black!important}
+a[href|="/blank"] em,a[href|="/black"] em{text-transform:uppercase!important;text-align:center!important;font-size:40px!important;line-height:40px!important;font-style:normal!important;position:absolute!important;top:52px!important;left:50%!important;height:130px!important;width:270px!important;margin-left:-135px!important}
+a[href|="/blank"] del,a[href|="/black"] del{text-transform:uppercase!important;text-align:center!important;font-size:40px!important;line-height:40px!important;font-style:normal!important;text-decoration:none!important;position:absolute!important;color:red!important;top:52px!important;left:50%!important;height:130px!important;width:270px!important;margin-left:-135px!important}
+/*all text hidden*/
+a[href|="/bigs"] strong,a[href|="/bigs"] del,a[href|="/bigslmar"] del,a[href|="/dafty"] strong,a[href|="/dafty"] del,a[href|="/dolan"] strong,a[href|="/dolan"] del,a[href|="/daisudolan"] strong,a[href|="/daisudolan"] del,a[href|="/dolanfull"] strong,a[href|="/dolanfull"] del,a[href|="/dolanwalk"] strong,a[href|="/dolanwalk"] del,a[href|="/gooby1"] strong,a[href|="/gooby1"] del,a[href|="/gooby2"] strong,a[href|="/gooby2"] del,a[href|="/gooby3"] strong,a[href|="/gooby3"] del,a[href|="/kyot"] strong,a[href|="/kyot"] del,a[href|="/lmar"] strong,a[href|="/lmar"] del,a[href|="/pulto"] strong,a[href|="/pulto"] del,a[href|="/ranrar"] strong,a[href|="/ranrar"] del{display:none!important}
+/*surplus options*/
+a[href^="/"][href*="-comicsans!"]{font-family:"Comic Sans MS",sans-serif!important}
+a[href^="/"][href*="-impact!"]{font-family:Impact,Charcoal,sans-serif!important}
+a[href^="/"][href*="-papyrus!"]{font-family:Papyrus,"Tempus Sans",sans-serif!important}
+a[href^="/"][href*="-tinytxt!"]{font-family:"monospace","Courier"!important;color:inherit!important;cursor:text!important;font-size:1px!important}
+a[href^="/"][href*="-script!"]{font-family:"Brush Script MT",cursive!important;font-size:13px!important}
+a[href^="/"][href*="-times!"]{font-family:Times,serif!important}
+a[href^="/"][href*="-arial!"]{font-family:"Arial",Helvetica,sans-serif!important}
+a[href^="/"][href*="-jokerman!"]{font-family:"Jokerman"!important}
+a[href^="/"][href*="-courier!"]{font-family:courier,monospaced!important}
+a[href^="/"][href*="-wingdings!"]{font-family:"Wingdings"!important}
+a[href^="/"][href*="-all"]{text-align:left!important}
+a[href^="/"][href*="-alr"]{text-align:right!important}
+a[href^="/"][href*="-alc"]{text-align:center!important}
+a[href^="/"][href*="-blue"]{color:blue!important}
+a[href^="/"][href*="-scarlet"]{color:red!important}
+a[href^="/"][href*="-green"]{color:green!important}
+a[href^="/"][href*="-yellow"]{color:yellow!important}
+a[href^="/"][href*="-orange"]{color:orange!important}
+a[href^="/"][href*="-purple"]{color:purple!important}
+a[href^="/"][href*="-white"]{color:white!important}
+a[href^="/"][href*="-black"]{color:black!important}
+a[href^="/"][href*="-gold"]{color:gold!important}
+a[href^="/"][href*="-lime"]{color:limegreen!important}
+a[href^="/"][href*="-pink"]{color:pink!important}
+a[href^="/"][href*="-aqua"]{color:aqua!important}
+a[href^="//#-"]{color:inherit!important}
+
+/*HOVER SHIT FROM R/SELECTORLEGEND*/
+/*ANDYTUBA IS SEXY*/
+*:hover { outline: 2px #FF6FFF solid; }
+:lang(df) *:hover { outline: none; }
+*:hover::after { position: absolute; display: block; 
+    z-index: 1000; margin-left: 30px; margin-top: 5px;
+    border: 1px solid #333 !important;
+    -moz-border-radius: 5px;  -webkit-border-radius: 5px;  border-radius: 5px;
+    padding: 5px;
+    background-color: #99FF00 !important; color: black !important;  
+    font-size: 11px !important; font-weight: bold !important;
+    font-style: normal; font-variant: normal !important;font-family:'Webdings', "Impact";}
+..arrow.downmod:hover::after { content: "XD XD XD XD XD XD"; color: orange; font-size: 20px; font-family: "comic sans"; direction: rtl; unicode-bidi: bidi-override; background: purple; border: 1px #808080}
+.comment .arrow.up:hover::after { content: "XD XD XD XD XD XD"; color: orange; font-size: 20px; font-family: "comic sans"; direction: rtl; unicode-bidi: bidi-override; background: purple; border: 1px #808080}
+.comment .arrow.upmod:hover::after { content: "XD XD XD XD XD XD"; color: orange; font-size: 20px; font-family: "comic sans"; direction: rtl; unicode-bidi: bidi-override; background: purple; border: 1px #808080}
+.comment .arrow.down:hover::after { content: "XD"; color: orange; background-color: purple; }
+.comment .arrow.downmod:hover::after { content: "XD"; color: orange; background-color: purple; }
+.sidebox.create:hover:after { content: "XD"; color: orange; background-color: purple; }
+.sidebox.submit:hover:after { margin-left: -50px; content: "PENIS" }
+.arrow.downmod:hover::before { content: "XD"; color: orange; background-color: purple; }
+.comment .arrow.up:hover::before { content: "XD"; color: orange; background-color: purple; }
+.comment .arrow.upmod:hover::before { content: "XD"; color: orange; background-color: purple; }
+.comment .arrow.down:hover::before { content: "XD"; color: orange; background-color: purple; }
+.comment .arrow.downmod:hover::before { content: "XD"; color: orange; background-color: purple; }
+.sidebox.create:hover:before { content: "XD"; color: orange; background-color: purple; }
+.sidebox.submit:hover:after { margin-left: -50px; content: "PENIS" }
+div.titlebox .users-online span.number:hover:after {  content: "XD"; color: orange; background-color: purple; }
+div.titlebox span.number:hover:after {  content: "XD"; color: orange; background-color: purple; }
+div.titlebox span.word:hover:after {  content: "XD"; color: orange; background-color: purple; }
+#header-bottom-left:hover::after{ content: "XD"; color: orange; background-color: purple; }
+#header-bottom-right:hover::after{ content: "XD"; color: orange; background-color: purple; }
+#header-bottom-right .user:hover::after{ content: "XD"; color: orange; background-color: purple;z-index:1001!important}
+#header-bottom-left:hover::after{content:"PENIS"}
+span.pagename.redditname:hover::after{content:"PENIS";z-index:1001!important}
+ul.tabmenu:hover::after{content:"PENIS"}
+#header-bottom-right:hover::after{content:"PENIS"}
+#header-bottom-right .user:hover::after{content:"PENIS";z-index:1001!important}
+.submit .spacer:hover::after {content:"PENIS"; z-index: 1001 !important}
+.submit .subtitle:hover::after {content:"PENIS"; z-index: 1002 !important}
+.create .spacer:hover::after {content:"PENIS"; z-index: 1001 !important}
+.create .subtitle:hover::after {content:"PENIS"; z-index: 1002 !important}
+.marknsfw-button:hover::after{content:"PENIS"}
+.unmarknsfw-button:hover::after{content:"NOT A PENIS"}
+.titlebox h1 a:hover::after{content:"PENIS";margin-top:-25px!important;margin-left:150px!important}
+.thing .title:hover::after{content:"PENIS"}
+li.nsfw-stamp.stamp:hover::after{content:"PENIS";margin-top:22px!important}
+.nsfw-stamp acronym:hover::after{Content:"PENIS";margin-top:22px!important}
+.usertext-body:hover::after{content:"PENIS";margin-top:25px!important;z-index:1001!important}
+.expando:hover::after{content:"PENIS";z-index:1001!important}
+.titlebox:hover::after{content:"PENIS";margin-top:15px!important}
+.linkflairlabel:hover::after{content:"PENIS"}
+a.thumbnail.self:hover::after{content:"PENIS"}
+a.thumbnail.default:hover::after{content:"PENIS"}
+a.thumbnail img:hover::after{content:"PENIS"}
+.flair:hover::after{content:"PENIS"}
+.author:hover::after{content:"PENIS"}
+.nub:hover::after{content:"PENIS"; margin-left: -10px; margin-top: 20px; }
