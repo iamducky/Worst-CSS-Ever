@@ -61,7 +61,7 @@ a { color:#D75148; }
 body{ direction: rtl }
 /*Links*/
 .thing .title { direction: rtl; unicode-bidi: bidi-override; }
-.thumbnail img[src$="/static/self_default2.png"] { background-image: url(%%dolan-walking%%) !important; background-repeat:no-repeat!important;height: 0 !important; width: 0 !important; padding: 50px 0 0 70px !important }=
+.thumbnail img[src$="/static/self_default2.png"] { background-image: url(%%dolan-walking%%) !important; background-repeat:no-repeat!important;height: 0 !important; width: 0 !important; padding: 50px 0 0 70px !important }
 li.nsfw-stamp.stamp { direction: rtl; unicode-bidi: bidi-override; }
 .author { direction: rtl; unicode-bidi: bidi-override; }
 /*Links Hover*/
@@ -195,7 +195,7 @@ a[href^="//#-"]{color:inherit!important}
     background-color: #99FF00 !important; color: black !important;  
     font-size: 11px !important; font-weight: bold !important;
     font-style: normal; font-variant: normal !important;font-family:'Webdings', "Impact";}
-..arrow.downmod:hover::after { content: "XD XD XD XD XD XD"; color: orange; font-size: 20px; font-family: "comic sans"; direction: rtl; unicode-bidi: bidi-override; background: purple; border: 1px #808080}
+.arrow.downmod:hover::after { content: "XD XD XD XD XD XD"; color: orange; font-size: 20px; font-family: "comic sans"; direction: rtl; unicode-bidi: bidi-override; background: purple; border: 1px #808080}
 .comment .arrow.up:hover::after { content: "XD XD XD XD XD XD"; color: orange; font-size: 20px; font-family: "comic sans"; direction: rtl; unicode-bidi: bidi-override; background: purple; border: 1px #808080}
 .comment .arrow.upmod:hover::after { content: "XD XD XD XD XD XD"; color: orange; font-size: 20px; font-family: "comic sans"; direction: rtl; unicode-bidi: bidi-override; background: purple; border: 1px #808080}
 .comment .arrow.down:hover::after { content: "XD"; color: orange; background-color: purple; }
