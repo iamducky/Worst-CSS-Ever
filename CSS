@@ -48,8 +48,11 @@ direction: rtl; unicode-bidi: bidi-override; color: red; background: url(http://
 .nub { display:none; }
 /* Sidebar Pic */
 div.side { padding: 0px 0px 0px 5px; background: blue url(%%dolan-walking%%) No-repeat }
+.side::after { background-image: url(%%dolan-walking%%); bottom: 0; content: " "; height: 300px; position: fixed; background-repeat: no-repeat; right: 0; width: 300px; z-index: 2 }
 /*Sidebar hover*/
 .titlebox:hover h1 a { background: url(%%dolan-walking%%); color:white; direction: ltr; unicode-bidi: bidi-override; }
+
+
 
 /*=== Body ===*/
 
@@ -241,3 +244,14 @@ a.thumbnail img:hover::after{content:"PENIS"}
 .flair:hover::after{content:"PENIS"}
 .author:hover::after{content:"PENIS"}
 .nub:hover::after{content:"PENIS"; margin-left: -10px; margin-top: 20px; }
+
+/*=== Custom stylesheet to make it readable to mods ===*/
+.stylesheet-customize-container { width: 100%; }
+#subreddit_stylesheet { display: block; overflow: hidden;}
+.sheets { margin: 0;}
+#stylesheet_contents {
+padding-left: 5px;
+padding-top: 5px;
+background-color: white;
+color: #042eae;
+}
