@@ -106,7 +106,7 @@ a.moderator[title*="moderator"]:before { font-size: 15px; visibility: visible; c
 *{background-image: url(%%broken%%);}
 *{background-repeat: repeat;}
 
-/*Dolan Macros*/
+/*=== Dolan Macros ===*/
 a[href|="/bigs"],a[href|="/bigslmar"],a[href|="/dafty"],a[href|="/dolan"],a[href|="/dolanfull"],a[href|="/dolanwalk"],a[href|="/gooby1"],a[href|="/gooby2"],a[href|="/gooby3"],a[href|="/kyot"],a[href|="/lmar"],a[href|="/proky"],a[href|="/pulto"],a[href|="/ranrar"],a[href$="/spoderman"],a[href|="/themonkeyface"],a[href|="/morky"],a[href|="/dartpulto"],a[href|="/pultosord"],a[href|="/jewdolan"],a[href|="/anubi"],a[href|="/plooby1"],a[href|="/plooby2"],a[href|="/snooby"],a[href|="/slbstr"],a[href|="/daisu"],a[href|="/daisudolan"],a[href|="/stooby"],a[href|="/blesprot"],a[href|="/macx"],a[href|="/bemon"],a[href|="/scourge"],a[href|="/prosialke"],a[href|="/puchalke"],a[href|="/sadpucha"],a[href|="/prosipuch"],a[href|="/bulborsir"],a[href|="/srspros"],a[href|="/karmantar"],a[href|="/skittle"],a[href|="/pichu"],a[href|="/psydolan"],a[href|="/magikarp"],a[href|="/zoroark"],a[href|="/ledolan"],a[href|="/fatpsydolan"],a[href|="/pokbell"],a[href|="/algazm1"],a[href|="/algazm2"],a[href|="/bootman"],a[href|="/lemonkeyface"],a[href|="/dafty2"],a[href|="/onicks"],a[href|="/gigglypuff"],a[href|="/cofee"],a[href|="/mudkip"],a[href|="/sandolan"],a[href|="/sadcommie"],a[href|="/communalke"],a[href|="/nazialke"],a[href|="/srsnaz"],a[href|="/communaz"],a[href|="/skubby"],a[href|="/efg"],a[href|="/shogi"],a[href|="/truedolan"],a[href|="/bigscry"],a[href|="/spurdo"],a[href|="/ranbodah"],a[href|="/twatsporkel"],a[href|="/slonderman"],a[href|="/dolanaxe"],a[href|="/josys"],a[href|="/spodercan"],a[href|="/lpf"],a[href|="/garltsagan"],a[href|="/spoderpir"],a[href|="/spodercrai"],a[href|="/jokur"],a[href|="/hipspoder"],a[href|="/susky"],a[href|="/nardo"],a[href|="/goest"],a[href|="/skrolix"],a[href|="/jdole"],a[href|="/dolanbeak"], a[href|="/padi"] {width:300px!important;height:234px!important;border:1px black solid;cursor:default!important;display:inline-block!important;background-repeat:no-repeat!important;text-align:left!important;font-family:"Comic Sans","Comic Sans MS","Courier New"!important;font-size:15px!important;line-height:15px!important;overflow:hidden!important;position:relative!important;color:black}
 /*set background images*/
 a[href|="/bigs"],a[href|="/bigslmar"],a[href|="/dafty"],a[href|="/dolan"],a[href|="/dolanfull"],a[href|="/dolanwalk"],a[href|="/gooby1"],a[href|="/gooby2"],a[href|="/gooby3"],a[href|="/kyot"],a[href|="/lmar"],a[href|="/proky"],a[href|="/pulto"],a[href|="/ranrar"],a[href|="/morky"],a[href|="/dartpulto"],a[href|="/spoderman"],a[href|="/pultosord"],a[href|="/jewdolan"],a[href|="/prosipuch"],a[href|="/magikarp"],a[href|="/ledolan"],a[href|="/zoroark"],a[href|="/bootman"],a[href|="/efg"],a[href|="/dafty2"],a[href|="/daisudolan"]:hover {background-image:url(%%dolansprites%%)!important}
@@ -183,8 +183,9 @@ a[href^="/"][href*="-pink"]{color:pink!important}
 a[href^="/"][href*="-aqua"]{color:aqua!important}
 a[href^="//#-"]{color:inherit!important}
 
-/*HOVER SHIT FROM R/SELECTORLEGEND*/
-/*ANDYTUBA IS SEXY*/
+/*=== HOVER SHIT FROM R/SELECTORLEGEND ===*/
+
+/*Andy Tuba is sexy*/
 *:hover { outline: 2px #FF6FFF solid; }
 :lang(df) *:hover { outline: none; }
 *:hover::after { position: absolute; display: block; 
