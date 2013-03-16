@@ -245,6 +245,7 @@ a.thumbnail img:hover::after{content:"PENIS"}
 .author:hover::after{content:"PENIS"}
 .nub:hover::after{content:"PENIS"; margin-left: -10px; margin-top: 20px; }
 
+
 /*=== Custom stylesheet to make it readable to mods ===*/
 .stylesheet-customize-container { width: 100%; }
 #subreddit_stylesheet { display: block; overflow: hidden;}
@@ -253,5 +254,66 @@ a.thumbnail img:hover::after{content:"PENIS"}
 padding-left: 5px;
 padding-top: 5px;
 background-color: white;
-color: #042eae;
+color: black;
 }
+
+
+
+/*=== Test stuff below this line ===*/
+
+a[href*="/controversial_opinions"].comments:after,
+a[href*="stereotypes_are_true"].comments:after,
+a[href*="favorite_gif"].comments:after,
+a[href*="/wipe_ass"].comments:after {
+content: "Unoriginal post title";
+display:block;
+color: white;
+border-color: white; 
+background-color:#CCCCCC;
+margin-left: 2px;
+margin-right: 0px;
+}
+img.approval-checkmark[title="approved by Iamducky"] { background: #ff6; }
+
+/* Submit Warning - stolen from /r/AskScience */
+.sidebox.submit:hover:before {
+    position: fixed;
+    display: block;
+    top: 0;
+    text-align: center;
+    background-color: #a00;
+    color: #fff;
+    z-index: 1000;
+    padding: 5px 0;
+    width: 100%;
+    left: 0;
+    font-size: 16px;
+    font-weight: normal;
+    content: "Please read the rules, and note that screenshots and superimposed text aren't allowed"
+    }
+
+
+/* Adding a [FAKE] tag from violentacrez
+ 
+   Each post on reddit has a weird 5-character identifier.  
+   Look at the url of the post you want to add 'fake' to, and find that 5-character ID.  
+   The one for the sample post is au6vs
+
+   Copy and paste the "another-id-here" line, and replace "another-id-here" with the 5 character ID from the post you're tagging.
+   Click 'save', then go view the original post.  It should display the 'fake' tag.
+
+*/
+
+.id-t3_auv6s a.title:before, 
+.id-t3_aurz3 a.title:before 
+    {
+    content: url(%%FAKE%%)
+    }
+
+/* Be sure to copy this line too! */
+
+a.title:before {
+    padding-right: 5px
+    }
+
+/* Prop 19 background- krispy */
